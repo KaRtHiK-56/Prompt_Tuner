@@ -4,6 +4,11 @@ from langchain.prompts import PromptTemplate
 
 st.set_page_config(page_title="Tuner", page_icon="🤖")
 with st.sidebar:
+    
+    """The code snippet `st.text("PROMPT TUNER")` is displaying the text "PROMPT TUNER" in the
+    Streamlit sidebar. This text serves as a heading or label to provide information or context to
+    the user about the purpose or content of the section related to prompt tuning."""
+    
     st.text("PROMPT TUNER")
     st.image(r"C:\Users\Devadarsan\Desktop\Karthik_projects\Prompt_Tuner\tuner.jpg")
 
