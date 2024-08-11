@@ -17,6 +17,12 @@ configuration = st.selectbox(
 
 
 def prompt(text, configuration):
+    
+    """
+    this fucntion is used to create the redefined version if the prompt entered by the user.
+    it takes 2 parameters text and configuration and uses that to create a redefined prompt using the LLM.
+    
+    """
 
     print("The user input is ", text)
     print("The configuration is ", configuration)
